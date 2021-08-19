@@ -121,3 +121,113 @@ span {
     font-weight: bold;
 }
 
+@media only screen and (min-width: 1440px) {
+    body {
+        background: url('../images/bg-desktop.png') no-repeat;
+        background-position: 0 100%;
+        background-size: 200% 60%;
+        background-color: hsl(229, 57%, 11%);
+    }
+
+    .menu {
+        width: 20%;
+        position: relative;
+        top: 271px;
+        left: 250px;
+        border-top-right-radius: 100px;
+    }
+
+    .card {
+        margin: 2%;
+        padding: 4%;
+    }
+
+    .icon-wrapper {
+        padding: 12%;
+        margin-top: 25%;
+        margin-right: 20%;
+    }
+
+    #svg-file {
+        transform: scale(1.1);
+    }
+
+    #folder {
+        padding-top: 14%;
+    }
+
+    #svg-folder {
+        transform: scale(1.2);
+    }
+
+    #upload {
+        padding-top: 16%;
+    }
+
+    #svg-upload {
+        transform: scale(1.4);
+    }
+
+    .data-cap {
+        width: 30%;
+        height: 125px;
+        position: relative;
+        top: 56px;
+        left: 700px;
+        padding: 2%;
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .remaining-data {
+        width: 40%;
+        padding: 4%;
+        position: relative;
+        top: -120px;
+        left: 230px;
+    }
+
+    #triangle {
+        width: 20px;
+        height: 20px;
+        overflow: hidden;
+        position: relative;
+        margin: 10px;
+        top: -134px;
+        left: 405px;
+    }
+
+    #triangle:after {
+        content: '';
+        background: white;
+        width: 142%;
+        height: 142%;
+        position: absolute;
+        transform: rotate(-45deg) translate(48%,-19%);
+    }
+
+    #data-sub {
+        white-space: nowrap;
+    }
+
+    #data-bar-bg {
+        width: 100%;
+        margin-top: -80px;
+    }
+    
+    #data-bar-tip {
+        left: 333px;
+    }
+
+    #end-cap {
+        margin-left: 142%;
+    }
+
+    .row {
+        width: 50%;
+    }
+
+    .attribution {
+        margin-top: 37.7%;
+    }
+}
